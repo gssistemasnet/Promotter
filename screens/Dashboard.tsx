@@ -19,7 +19,7 @@ export default function Dashboard({ navigation }: any) {
             return(
                 <View style={[{ flex: 1, alignItems: 'center', justifyContent: 'center' }]}>
                     <ActivityIndicator size={80} color={'blue'} />
-                    <Text style={[Styles.secondTitle, { textAlign: 'center' }]}>{'Carregando\n\nAguarde...'}</Text>
+                    <Text style={[Styles.secondTitle, { textAlign: 'center' }]}>{'Carregando métricas\n\nAguarde...'}</Text>
                 </View>
             )
         } else {
