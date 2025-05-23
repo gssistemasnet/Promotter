@@ -3,6 +3,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Styles } from '../assets/Styles/Styles';
 import { useContext, useEffect, useState } from 'react';
 import { AuthProcess } from '../assets/Contexts/AuthProcess';
+import React from 'react';
 
 export default function Login() {
     const { IsLogged, usuario, v_pass, iconePass, verificaEstado, email, setEmail, senha, setSenha, login } = useContext<any>(AuthProcess);

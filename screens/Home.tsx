@@ -6,6 +6,7 @@ import { AuthProcess } from '../assets/Contexts/AuthProcess';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../assets/Styles/Screens/Home';
 import Login from './Login';
+import React from 'react';
 
 const Stack = createNativeStackNavigator()
 

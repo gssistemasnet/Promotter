@@ -2,6 +2,7 @@ import { View,Text} from 'react-native';
 import V from '../app.json';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
 import { Styles } from '../assets/Styles/Styles';
+import React from 'react';
 
 export default function Promotter() {
     return (
