@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Promotter",
+    "slug": "Promotter",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/promotter.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/promotter.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/promotter.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.gsapp.com.br.promotter"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b5b328c6-a594-494f-ad73-8743e6c57113"
+      }
+    }
+  }
+}
